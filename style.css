@@ -35,8 +35,31 @@ nav{
     justify-content: center;
     font-weight: 500;
     font-size: 1.2rem;
+    margin-top: 15px;
+    
+}
+nav a{
+    text-decoration: none;
+    margin:0 2rem 1rem 0;
+    color: #ECDFCC;
+}
+nav a:hover{
+    text-decoration: underline;
+    transform: scale(0.8);
+    transition: transform (0,1s);
 }
 footer{
     background-color: var(--cor-primaria);
+    display: flex;
     color: var(--cor-de-fundo);
+    align-items: center
+    justify-content: center
+    font-size: 1.2rem;
+    margin-top: 15px;
+    height: 3rem;
+    width: 100%;
+
+} 
+footer p{
+    margin-top: 15px;
 }
